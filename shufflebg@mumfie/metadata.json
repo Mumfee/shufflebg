@@ -1,0 +1,7 @@
+{
+    "uuid": "shufflebg@mumfie",
+    "name": "ShuffleBG",
+    "description": "Changes wallpaper randomly from a selected folder",
+    "shell-version": ["47"], 
+    "settings-schema": "org.gnome.shell.extensions.shufflebg"
+}

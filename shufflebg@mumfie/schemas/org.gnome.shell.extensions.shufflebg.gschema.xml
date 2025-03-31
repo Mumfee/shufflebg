@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.shufflebg" path="/org/gnome/shell/extensions/shufflebg/">
+    <key name="folder-path" type="s">
+      <default>"~/Pictures/Wallpapers"</default>
+      <summary>Wallpaper Folder</summary>
+      <description>The folder where wallpapers are stored.</description>
+    </key>
+    
+    <key name="interval" type="d">
+      <default>300</default>
+      <summary>Change Interval (Seconds)</summary>
+      <description>How often the wallpaper should change, in seconds.</description>
+    </key>
+
+    <key name="icon-tray" type="b">
+      <default>true</default>
+      <summary>Show Icon in Tray</summary>
+      <description>Determines whether the tray icon is displayed.</description>
+    </key>
+
+    <key name="randomize" type="b">
+      <default>true</default>
+      <summary>Randomize Wallpaper Selection</summary>
+      <description>If enabled, wallpapers will be selected randomly; otherwise, they will be cycled in order.</description>
+    </key>
+  </schema>
+</schemalist>
+
